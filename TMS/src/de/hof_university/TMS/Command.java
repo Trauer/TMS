@@ -5,7 +5,7 @@ public class Command {
 	private String destination;
 	private char msgType;
 	private String msgNumber;
-	private String msgID;
+	private String msgID;//bacon
 	private String payload;
 	private boolean ack1=false;
 	private boolean ack2=false;
