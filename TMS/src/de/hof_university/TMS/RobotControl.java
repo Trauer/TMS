@@ -160,15 +160,14 @@ public class RobotControl {
 	public void handlecommand() throws IOException {
 		if (robot.isConnected() && control.isConnected()) {
 			if (commands.get(commands.size()-1).compare(CONTROL, CMD, "000")) {
-				
-			}
-				
-				
-			}
-			if (commands.get(commands.size()-1).compare(CONTROL, CMD, "001")) {
 				moveStpFromTtoAB();
 				
-			
+			}
+				
+				
+			if (commands.get(commands.size()-1).compare(CONTROL, CMD, "001")) {
+
+			}
 
 		}
 
